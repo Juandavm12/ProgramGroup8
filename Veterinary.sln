@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34622.214
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Veterinary.Shared", "Veterinary.Shared\Veterinary.Shared.csproj", "{B192935E-AAE2-4621-84CA-3CBFCBF875CF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Veterinary.Shared", "Veterinary.Shared\Veterinary.Shared.csproj", "{B192935E-AAE2-4621-84CA-3CBFCBF875CF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Veterinary.API", "Veterinary.API\Veterinary.API.csproj", "{85295F0F-961F-472C-8817-DE563C326214}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Veterinary.API", "Veterinary.API\Veterinary.API.csproj", "{85295F0F-961F-472C-8817-DE563C326214}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Veterinary.Web", "Veterinary.Web\Veterinary.Web.csproj", "{9DF34090-583C-486C-85BF-CC98BF28048F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Veterinary.Web", "Veterinary.Web\Veterinary.Web.csproj", "{9DF34090-583C-486C-85BF-CC98BF28048F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
