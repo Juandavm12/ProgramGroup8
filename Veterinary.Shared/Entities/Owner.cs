@@ -19,17 +19,17 @@ namespace Veterinary.Shared.Entities
         public string Document { get; set; }
 
         [Display(Name = "Nombre")]
-        [MaxLength(20, ErrorMessage = "No se permiten mas de 50 caracteres")]
+        [MaxLength(50, ErrorMessage = "No se permiten mas de 50 caracteres")]
         [Required(ErrorMessage = "El campo {0} es obligatorio")]
         public string FirstName { get; set; }
 
         [Display(Name = "Apellido")]
-        [MaxLength(20, ErrorMessage = "No se permiten mas de 50 caracteres")]
+        [MaxLength(50, ErrorMessage = "No se permiten mas de 50 caracteres")]
         [Required(ErrorMessage = "El campo {0} es obligatorio")]
         public string LastName { get; set; }
 
         [Display(Name = "Email")]
-        [MaxLength(20, ErrorMessage = "No se permiten mas de 50 caracteres")]
+        [MaxLength(50, ErrorMessage = "No se permiten mas de 50 caracteres")]
         [Required(ErrorMessage = "El campo {0} es obligatorio")]
         [EmailAddress(ErrorMessage = "Digite un email valido")]
         public string Email { get; set; }

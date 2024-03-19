@@ -10,7 +10,11 @@ namespace Veterinary.API.Data
         }
 
         //Registrar todas las entidades
-        public DbSet<Owner>Owners { get; set; }
+        public DbSet<Owner> Owners { get; set; }
+        public DbSet<PetType> PetTypes { get; set; }
+        public DbSet<Pet> Pets { get; set; }
+        public DbSet<ServiceType> ServiceTypes { get; set; }
+        public DbSet<History> Histories { get; set; }
 
         //Conectar con la base de datos
         protected override void OnModelCreating(ModelBuilder modelBuilder)
