@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
+using System.Text.Json.Serialization;
 using System.Threading.Tasks;
 
 namespace Veterinary.Shared.Entities
@@ -37,6 +38,11 @@ namespace Veterinary.Shared.Entities
         public string CellPhone { get; set; }
         public string Address { get; set; }
         public string FullName => $"{FirstName}{LastName}";
+
+        //Envia la foreign key a una tabla intermedia con una coleccion
+
+        [JsonIgnore]
+        public ICollection<Agenda> Agendas { get; set; }
 
 
     }

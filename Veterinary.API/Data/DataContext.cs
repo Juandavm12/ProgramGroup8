@@ -15,6 +15,7 @@ namespace Veterinary.API.Data
         public DbSet<Pet> Pets { get; set; }
         public DbSet<ServiceType> ServiceTypes { get; set; }
         public DbSet<History> Histories { get; set; }
+        public DbSet<Agenda> Agendas { get; set; }
 
         //Conectar con la base de datos
         protected override void OnModelCreating(ModelBuilder modelBuilder)
